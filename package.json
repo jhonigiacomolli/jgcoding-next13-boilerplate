@@ -9,7 +9,7 @@
     "lint": "next lint",
     "lint:fix": "yarn lint --fix",
     "prepare": "husky install",
-    "type-check": "tsc --project tsconfig.json --pretty --noEmit"
+    "type-check": "tsc --project ./tsconfig.json --pretty --noEmit"
   },
   "dependencies": {
     "@types/node": "20.5.9",
@@ -23,6 +23,7 @@
     "typescript": "5.2.2"
   },
   "devDependencies": {
+    "git-commit-msg-linter": "^5.0.4",
     "husky": "^8.0.3",
     "lint-staged": "^14.0.1"
   }

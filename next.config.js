@@ -10,6 +10,7 @@ const nextConfig = {
         hostname: '**.localhost:8000',
       },
     ],
+
   },
 }
 
